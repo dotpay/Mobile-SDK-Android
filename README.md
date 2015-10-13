@@ -1,2 +1,1 @@
-# Mobile-SDK-Android
-Mobile SDK Android
+https://github.com/dotpay/Mobile-SDK-Android/releases/latest
