@@ -8,7 +8,7 @@ SDK (Android) Version 1.4.18
 
 ## Compile
 
-To use this library, you need to edit your .gradle files AND integrate Visa Checkout SDK:
+To use this library, you need to edit your .gradle files *AND* integrate Visa Checkout SDK:
 
 ### Gradle
 
@@ -28,7 +28,7 @@ allprojects {
 // Module build.gradle
 dependencies {
 
-    // needed to compile Visa Checkout .aar
+    // needed to compile Visa Checkout .aar, see paragraph below
     implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
     
     // Standard Dotpay SDK version
