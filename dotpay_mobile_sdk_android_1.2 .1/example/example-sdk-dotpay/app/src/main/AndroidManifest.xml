@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="pl.mobiltek.dotpayexample" >
+    xmlns:tools="http://schemas.android.com/tools"
+    package="pl.mobiltek.dotpayexample">
 
 
 
@@ -9,7 +10,8 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:replace="android:allowBackup">
         <activity
             android:name=".ui.ExampleActivity"
             android:screenOrientation="portrait"
