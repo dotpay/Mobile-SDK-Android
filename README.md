@@ -19,9 +19,10 @@ Add this to your build.gradle files:
 allprojects {
     repositories {
         maven { url 'https://github.com/dotpay/Mobile-SDK-Android/raw/master/' }
-    }
-    flatDir {
-        dirs 'libs'
+        google()
+        flatDir {
+            dirs 'libs'
+        }
     }
 }
 
