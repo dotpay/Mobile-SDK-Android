@@ -9,7 +9,7 @@ public class ShopData {
     private static final String email = "j.janowy@jan.pl";
 
     //    private  final String merchantId = "777777";
-    private static final String merchantId = "10000";
+    private static final String merchantId = "855021";
     private static final double productPrice = 1759;
 
     private static final String description = "Za  tel. Sony Xperia Z3";
