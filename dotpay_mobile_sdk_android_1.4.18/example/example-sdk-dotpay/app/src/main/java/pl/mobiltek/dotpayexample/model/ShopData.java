@@ -6,17 +6,17 @@ public class ShopData {
 
     private static final String name = "Jan";
     private static final String lastName = "Janowy";
-    private static final String email = "j.janowy@jan.pl";
+    private static final String email = "test@example.com";
 
     //    private  final String merchantId = "777777";
     private static final String merchantId = "855021";
     private static final double productPrice = 1759;
 
-    private static final String description = "Za  tel. Sony Xperia Z3";
+    private static final String description = "Test payment for Sony Xperia Z3";
     private static final String currency = "PLN";
     private static final String language = "pl";
 
-    private static final PaymentCardData paymentCard = new PaymentCardData("4444 4444 4444 4448", "448", "Jan", "Nowak", "08", "2017");
+    private static final PaymentCardData paymentCard = new PaymentCardData("4444 4444 4444 4448", "448", "Jan", "Nowak", "08", "2020");
 
 
     public static String getName() {
