@@ -16,7 +16,7 @@ public class ShopData {
     private static final String currency = "PLN";
     private static final String language = "pl";
 
-    private static final PaymentCardData paymentCard = new PaymentCardData("4444 4444 4444 4448", "448", "Jan", "Nowak", "08", "2020");
+    private static final PaymentCardData paymentCard = new PaymentCardData("4916 9715 6289 1025", "025", "Jan", "Nowak", "08", "2020");
 
 
     public static String getName() {
