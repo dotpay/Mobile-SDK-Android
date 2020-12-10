@@ -64,7 +64,7 @@ Please use corresponding version according to your Dotpay SDK version as in tabl
 
 | Dotpay SDK version  | Visa Checkout SDK version |
 | ------------------- | ------------------------- |
-| 1.4.14+  | 6.6.1  |
+| 2.0.0+  | 6.7.0  |
 
 You can download your Visa Checkout SDK .aar file from 'visa_checkout_sdk' directory of this repository.
 
