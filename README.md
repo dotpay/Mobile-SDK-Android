@@ -4,7 +4,7 @@
 ![SDK logo](logo.png)
 
 
-SDK (Android) Version 1.4.22
+SDK (Android) Version 2.0.0
 
 ## Compile
 
@@ -33,14 +33,14 @@ dependencies {
     implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
     
     // Standard Dotpay SDK version
-    implementation('pl.mobiltek.paymentsmobile:dotpay:1.4.22@aar') {
+    implementation('pl.mobiltek.paymentsmobile:dotpay:2.0.0@aar') {
         transitive = true
     }
     
     // OR
   
     // Dotpay SDK with Google Pay integration
-    implementation('pl.mobiltek.paymentsmobile:dotpay-googlepay:1.4.22@aar') {
+    implementation('pl.mobiltek.paymentsmobile:dotpay-googlepay:2.0.0@aar') {
         transitive = true
     }
 }
