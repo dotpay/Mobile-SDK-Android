@@ -4,7 +4,7 @@
 ![SDK logo](logo.png)
 
 
-SDK (Android) Version 1.4.22
+SDK (Android) Version 2.0.0
 
 ## Compile
 
@@ -33,14 +33,14 @@ dependencies {
     implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
     
     // Standard Dotpay SDK version
-    implementation('pl.mobiltek.paymentsmobile:dotpay:1.4.22@aar') {
+    implementation('pl.mobiltek.paymentsmobile:dotpay:2.0.0@aar') {
         transitive = true
     }
     
     // OR
   
     // Dotpay SDK with Google Pay integration
-    implementation('pl.mobiltek.paymentsmobile:dotpay-googlepay:1.4.22@aar') {
+    implementation('pl.mobiltek.paymentsmobile:dotpay-googlepay:2.0.0@aar') {
         transitive = true
     }
 }
@@ -64,7 +64,7 @@ Please use corresponding version according to your Dotpay SDK version as in tabl
 
 | Dotpay SDK version  | Visa Checkout SDK version |
 | ------------------- | ------------------------- |
-| 1.4.14+  | 6.6.1  |
+| 2.0.0+  | 6.7.0  |
 
 You can download your Visa Checkout SDK .aar file from 'visa_checkout_sdk' directory of this repository.
 
