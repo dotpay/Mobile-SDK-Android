@@ -3,6 +3,7 @@
 
 ![SDK logo](logo.png)
 
+[![](https://img.shields.io/github/release/dotpay/Mobile-SDK-Android.svg?style=for-the-badge)](https://github.com/dotpay/Mobile-SDK-Android/releases/latest "Download")
 
 SDK (Android) Version 2.0.1
 
