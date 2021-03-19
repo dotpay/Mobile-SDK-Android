@@ -5,7 +5,7 @@
 
 [![](https://img.shields.io/github/release/dotpay/Mobile-SDK-Android.svg?style=for-the-badge)](https://github.com/dotpay/Mobile-SDK-Android/releases/latest "Download")
 
-SDK (Android) Version 2.0.1
+SDK (Android) Version 2.0.2
 
 ## Compile
 
@@ -34,14 +34,14 @@ dependencies {
     implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
     
     // Standard Dotpay SDK version
-    implementation('pl.mobiltek.paymentsmobile:dotpay:2.0.1@aar') {
+    implementation('pl.mobiltek.paymentsmobile:dotpay:2.0.2@aar') {
         transitive = true
     }
     
     // OR
   
     // Dotpay SDK with Google Pay integration
-    implementation('pl.mobiltek.paymentsmobile:dotpay-googlepay:2.0.1@aar') {
+    implementation('pl.mobiltek.paymentsmobile:dotpay-googlepay:2.0.2@aar') {
         transitive = true
     }
 }
